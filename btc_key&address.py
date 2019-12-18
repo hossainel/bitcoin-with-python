@@ -7,7 +7,7 @@ public_key = bt.privtopub(private_key)
 btc_address = bt.pubtoaddr(public_key)
 #also generates a text file if you like to save that
 #with open('data.txt', 'w') as fob:
-#    fob.write('Private Key: '+private_key+'\nPublic  Key: '+public_key+'\nBitcoin Address: '+btc_address+'\n')
+#    fob.write('Private Key: '+private_key+'\nPublic  Key: '+public_key+'\nBTC Address: '+btc_address+'\n')
 #    fob.close()
 
 print('Private Key:', private_key)
