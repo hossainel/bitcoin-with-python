@@ -7,4 +7,7 @@ btc_address = '13dMHRKdcj17yGkuaxAbayiPsi3JSJKsky'
 
 #prints the history of the bitcoin address
 history = bt.history(btc_address)
-print(history)
+for i in history:
+  for j in i:
+    print(j, ":", i[j])
+
